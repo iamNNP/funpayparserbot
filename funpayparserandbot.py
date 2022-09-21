@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup as b
 from aiogram import types, executor, Dispatcher, Bot
 URL = 'https://funpay.com/lots/700/'
-TOKEN = '5519027211:AAFfmKlwkVqJv1jn48K0LSOJayK-ZqKRs9o'
+TOKEN = 'your token'
 
 r = requests.get(URL)
 soup = b(r.text, 'html.parser')
